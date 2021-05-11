@@ -56,11 +56,10 @@ function draw() {
         thunder_Obj.destroy();
     }
     mainObject.display();
-    if(frameCount%50==
         for (var i = 0; i < rain.length; i++) {
         rain[i].display();
         rain[i].updateY();
-    }}
+    }
  
 
     drawSprites();
